@@ -1,7 +1,7 @@
 {
     "author": "kai zhu <kaizhu256@gmail.com>",
     "buildNpmdoc": "npm-install-missing",
-    "description": "api documentation for [npm-install-missing (v0.1.4)](https://github.com/AlexCline/npm-install-missing#readme) [![npm package](https://img.shields.io/npm/v/npmdoc-npm-install-missing.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-npm-install-missing) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-npm-install-missing.svg)](https://travis-ci.org/npmdoc/node-npmdoc-npm-install-missing)",
+    "description": "#### api documentation for  npm-install-missing (v0.1.4)  [![npm package](https://img.shields.io/npm/v/npmdoc-npm-install-missing.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-npm-install-missing) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-npm-install-missing.svg)](https://travis-ci.org/npmdoc/node-npmdoc-npm-install-missing)",
     "devDependencies": {
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
         "npm-install-missing": "*",
@@ -36,5 +36,5 @@
         "start": "(set -e; export PORT=${PORT:-8080}; utility2 start test.js)",
         "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
     },
-    "version": "0.0.1"
+    "version": "0.0.2"
 }
